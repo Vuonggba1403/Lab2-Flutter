@@ -46,52 +46,55 @@ class myApp extends StatelessWidget {
 
               const CircleAvatar(
                 radius: 50.0,
-                backgroundImage: AssetImage('images/anh2.jpg'),
+                backgroundImage: AssetImage('images/11.jpg'),
               ),
               const Text(
-                'Beautiful Pictures',
+                'Angela Yu',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                     fontSize: 40.0,
                     fontWeight: FontWeight.bold,
-                    fontFamily: 'Roboto'),
-              ),
-              SizedBox(
-                height: 20.0,
-                child: Divider(
-                  color: Colors.teal.shade100,
-                ),
+                    color: Colors.white,
+                    fontFamily: 'Pacifico'),
               ),
               const Text(
                 'Developer Flutter',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                     fontSize: 20.0,
-                    color: Color.fromARGB(255, 216, 204, 93),
+                    wordSpacing: 10.0,
+                    color: Color.fromARGB(255, 228, 228, 221),
                     fontWeight: FontWeight.bold,
-                    fontFamily: 'Roboto1'),
+                    fontFamily: 'Time New Roman'),
+              ),
+              SizedBox(
+                height: 20.0,
+                width: 1000.0,
+                child: Divider(
+                  color: Colors.teal.shade100,
+                ),
               ),
               Container(
-                padding: const EdgeInsets.all(10.0),
+                padding: const EdgeInsets.all(3.0),
                 color: Colors.white,
                 margin: const EdgeInsets.symmetric(
                     vertical: 10.0, horizontal: 25.0),
                 child: const Row(
                   children: <Widget>[
                     Icon(
-                      Icons.add_shopping_cart,
+                      Icons.phone,
                       size: 50.0,
                       color: Color.fromARGB(255, 77, 207, 172),
                     ),
                     SizedBox(
                       width: 10.0,
                     ),
-                    Text('+0123456789'),
+                    Text('+44 123 4567 8901'),
                   ],
                 ),
               ),
               Container(
-                padding: const EdgeInsets.all(10.0),
+                padding: const EdgeInsets.all(3.0),
                 color: Colors.white,
                 margin: const EdgeInsets.symmetric(
                     vertical: 10.0, horizontal: 25.0),
@@ -105,7 +108,7 @@ class myApp extends StatelessWidget {
                     SizedBox(
                       width: 10.0,
                     ),
-                    Text('email@gmail.com'),
+                    Text('angela@email.com'),
                   ],
                 ),
               )

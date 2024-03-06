@@ -18,13 +18,11 @@ flutter:
   uses-material-design: true
 
   assets:
-    - images/anh2.jpg
+    - images/11.jpg
   fonts:
-    - family: Roboto
+    - family: Pacifico
       fonts:
-        - asset: assets/fonts/Roboto/Roboto-Black.ttf
-    - family: Roboto1
-      fonts :
-        - asset: assets/fonts/Roboto/Roboto-Thin.ttf
+        - asset: assets/fonts/Pacifico/Pacifico-Regular.ttf
+  
 
   
